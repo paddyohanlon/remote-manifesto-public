@@ -1,0 +1,62 @@
+@import 'normalize';
+@import 'breakpoints';
+@import 'helpers';
+@import 'color';
+
+@import 'layout';
+@import 'links';
+@import 'typography';
+@import 'header';
+@import 'logo';
+@import 'footer';
+
+@import 'custom-posts';
+
+@import 'syntax';
+@import 'h5bp-print';
+
+// Windows 8 viewport fix
+// http://trentwalton.com/2013/01/16/windows-phone-8-viewport-fix/
+@-webkit-viewport{width:device-width}
+@-moz-viewport{width:device-width}
+@-ms-viewport{width:device-width}
+@-o-viewport{width:device-width}
+@viewport{width:device-width}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+ }
+
+body {
+  background-color: $color-bg;
+  color: $color-text;
+}
+
+article {
+  img {
+    border-radius: 2px;
+    margin: pem(40px) 0;
+    max-width: 100%;
+  }
+}
+
+// <figure>
+.blow-up {
+  
+  @media only screen and (min-width: $break-medium-large) {
+    margin: 0 -(pem(150px));
+  }
+  
+  @media only screen and (min-width: $break-large-1) {
+    margin: 0 -(pem(309px));
+  }
+}
+
+// <li> Article Index list, highlight current post
+.current-post {
+  color: $color-faded;
+}
