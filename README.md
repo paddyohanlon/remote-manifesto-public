@@ -1,6 +1,8 @@
 # [The Remote Manifesto](http://remotemanifesto.com)
 
-The personal blog of me, [@Paddy](https://twitter.com/Paddy "Follow me on Twitter"). I write about design, the web, travel, climbing and language learning.
+This repo is a snapshot of the working repo for my blog. Mainly because no one wants to see my crazy post revisions.
+
+I am [@Paddy](https://twitter.com/Paddy "Follow me on Twitter"). I write about design, the web, travel, climbing and language learning.
 
 ## About the site
 
